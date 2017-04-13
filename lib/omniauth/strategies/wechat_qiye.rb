@@ -7,7 +7,7 @@ module OmniAuth
 
       option :client_options, {
                                 :site => "https://qyapi.weixin.qq.com",
-                                authorize_url: "https://open.weixin.qq.com/connect/oauth2/authorize#wechat_redirect",
+                                authorize_url: "https://dopen.weimob.com/fuwu/b/oauth2/authorize#wechat_redirect",
                                 token_url:     "/cgi-bin/gettoken",
                                 token_method:  :get,
                                 connection_opts: {

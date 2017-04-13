@@ -27,7 +27,7 @@ describe OmniAuth::Strategies::WechatQiye do
     end
 
     specify 'has authorize_url' do
-      expect(subject.client.options[:authorize_url]).to eq('https://open.weixin.qq.com/connect/oauth2/authorize#wechat_redirect')
+      expect(subject.client.options[:authorize_url]).to eq('https://dopen.weimob.com/fuwu/b/oauth2/authorize#wechat_redirect')
     end
 
     specify 'has token_url' do
